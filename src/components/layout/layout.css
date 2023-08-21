@@ -1,0 +1,54 @@
+:root {
+    --entonador1: #191716ff;
+    --entonador2: #e6af2eff;
+    --fondo: #e0e2dbff;
+    --extra1: #3d348bff;
+    --extra2: #beb7a4ff;
+    --y: #F29D16;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-body{
+    height: 80px;
+    width: 100%;
+    background-color: var(--fondo);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Signika', sans-serif;
+}
+
+.navbar-logo-image{
+    padding-left: 30px;
+    height: 2.5rem;
+}
+
+.creatorLink{
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: var(--y);
+    border-radius: .7rem;
+    margin-right: 60px;
+}
+
+.creatorLink:hover{
+    color: var(--y);
+    background-color: var(--entonador1);
+    transition: all .4s;
+}
+
+.navbar-social{
+    padding-right: 30px;
+}
+
+.social-element-img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
