@@ -1,11 +1,10 @@
 import { useState } from 'react';
 import axios from 'axios';
-import { useParams } from 'react-router-dom'; // Asumiendo que estás usando React Router para manejar rutas
-
+import { useParams } from 'react-router-dom';
 import './task.css';
 
 const EditTask = () => {
-    const { id } = useParams(); // Extraer el ID del enrutamiento
+    const { id } = useParams();
     const initialFormData = {
         author: '',
         title: '',
