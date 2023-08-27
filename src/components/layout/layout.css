@@ -34,7 +34,7 @@ body{
     padding: 1rem;
     background-color: var(--y);
     border-radius: .7rem;
-    margin-right: 60px;
+    margin-right: 10rem;
 }
 
 .creatorLink:hover{

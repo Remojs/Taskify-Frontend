@@ -1,0 +1,73 @@
+:root {
+    --entonador1: #191716ff;
+    --entonador2: #e6af2eff;
+    --fondo: #e0e2dbff;
+    --extra1: #3d348bff;
+    --extra2: #beb7a4ff;
+    --y: #F29D16;
+}
+
+
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--entonador1);
+    font-family: 'Signika', sans-serif;
+}
+
+.form-title{
+    color: var(--y);
+}
+
+.border-one{
+    border-radius: 10px;
+    border: #d68910 3px solid;
+    width: 30%;
+}
+
+.task-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 82%;
+    border: 5px solid #000;
+    border-right: none; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.create-button {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.create-button:hover {
+    background-color: #d68910;
+}

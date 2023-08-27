@@ -4,7 +4,12 @@ import gh from '../../img/githubBlanco.png'
 import ld from '../../img/LinkedinBlanco.png'
 import './layout.css'
 
+import { useLocation } from 'react-router-dom';
+
 const Navbar = () => {
+
+    const location = useLocation();
+
 return (
     <div>
         <nav className="navbar-body">
@@ -13,7 +18,7 @@ return (
             </div>
 
             <div className="navbar-elements">
-                <a href="/createTask" className='creatorLink'> Create a Task! </a>
+                {location.pathname === '/' && <a href="/createTask" className='creatorLink'> Create a Task! </a>}
             </div>
 
             <div className="navbar-social">
