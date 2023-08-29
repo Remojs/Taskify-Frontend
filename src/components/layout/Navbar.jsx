@@ -18,7 +18,8 @@ return (
             </div>
 
             <div className="navbar-elements">
-                {location.pathname === '/' && <a href="/createTask" className='creatorLink'> Create a Task! </a>}
+                {location.pathname === '/' ? <a href="/createTask" className='creatorLink'> Create a Task! </a> : <a href="/" className='creatorLink'> Task List </a>}
+                
             </div>
 
             <div className="navbar-social">
