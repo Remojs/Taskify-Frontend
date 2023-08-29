@@ -26,7 +26,7 @@ const CreateTask = () => {
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setFormData((prevData) => ({
-            ...prevData,
+            ...prevData, 
             [name]: value,
         }));
     };
